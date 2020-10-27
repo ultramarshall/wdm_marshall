@@ -1,0 +1,5 @@
+<svg class="lds-glow-ring" width="200px"  height="200px"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background: none;"><defs><radialGradient id="glow-ring_03ee408f174f" cx="0.5" cy="0.5" fx="0" fy="0" r="2"><stop offset="0%" stop-color="rgba(98.64473446671542%,40.33068320146074%,99.14314516129032%,0.907)"></stop><stop offset="100%" stop-color="rgba(94.11088709677419%,94.11088709677419%,94.11088709677419%,0.788)"></stop></radialGradient></defs><g transform="rotate(194.647 50 50)">
+<circle cx="50" cy="50" r="10" stroke="rgba(97.19531452168995%,65.55719420458004%,97.46572580645162%,0.788)" stroke-width="4" fill="none" stroke-opacity="0.7"></circle>
+<circle cx="50" cy="50" r="10" stroke="url(#glow-ring_03ee408f174f)" stroke-width="2" fill="none"></circle>
+<animateTransform attributeName="transform" type="rotate" values="0 50 50;360 50 50" times="0;1" dur="0.4s" repeatCount="indefinite"></animateTransform>
+</g></svg>

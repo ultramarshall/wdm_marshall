@@ -1,0 +1,228 @@
+@import url(../fonts/Sans_Pro/fonts.css);
+html{
+	overflow-x: hidden;
+	position: relative;
+}
+html, body {
+	font-family: 'SansPro', sans-serif;
+	font-size: 13px;
+	height: 100%;
+}
+#app {
+	min-height: calc(100% - 300px);
+}
+#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.card-product {
+	float: left;
+}
+
+.bold {
+	font-weight: bold;
+}
+.no-bold {
+	font-weight: 400;
+}
+.text-overflow-hidden {
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lSAction>a {
+	z-index: 1;
+}
+.follow-us {
+	line-height: 32px;
+}
+
+.icon-top {
+	width: 32px;
+}
+
+.ailin-cart {
+	line-height: 32px;
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	position: relative;
+}
+#menu-dropdown {
+	position: relative; 
+	text-align: right; 
+	line-height: 0px;
+}
+span#dropdown {
+	width: auto;
+	font-size: 20px;
+	line-height: 32px;
+	color: #eee;
+	transition: color .1s;
+}
+span#dropdonw:hover {
+	color: red;
+}
+
+.nav-material.nav-material-white>li .nav-link.active{
+	border-color: hotpink;
+}
+
+.nav-material>li>.nav-link.active {
+	color: hotpink;
+}
+
+.menu-float {
+	width: 30px;
+}
+
+.cur-pointer {
+	cursor: pointer;
+}
+
+.chat-widget .by-me .chat-content:before {
+	/*background-color: red*/
+}
+
+div {
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+@media screen and (max-width: 576px) {
+	.banner-right-top { display: none; }
+}
+/*font size*/
+.fs-8{ font-size: 8px }
+.fs-9{ font-size: 9px }
+.fs-10{ font-size: 10px }
+.fs-12{ font-size: 12px }
+.fs-13{ font-size: 13px }
+.fs-14{ font-size: 14px }
+.fs-15{ font-size: 15px }
+.fs-16{ font-size: 16px }
+.fs-18{ font-size: 18px }
+.fs-20{ font-size: 20px }
+.fs-22{ font-size: 22px }
+.fs-24{ font-size: 24px }
+.fs-26{ font-size: 26px }
+.fs-28{ font-size: 28px }
+.fs-30{ font-size: 30px }
+.fs-32{ font-size: 32px }
+.fs-34{ font-size: 34px }
+
+.flip-clock-label {
+	display: none;
+}
+#title { 
+	position: relative; 
+	color: #000;
+	font-weight: bold
+}
+#title:before {
+	content: " ";
+	width: 100%;
+	height: 2px;
+	background-color: hotpink;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+}
+
+/*line height*/
+.lh-12 { line-height: 12px; }
+
+/*overflow*/
+.o-auto { overflow: auto; }
+
+/*min-width*/
+.mw-150 { min-width: 150px; }
+
+
+.rating {
+	font-size: 30px;
+}
+.rating span {
+	color: #ffd700;
+	text-shadow: 0px 1px 2px #000000;
+}
+
+.btn-varian {
+	padding: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	cursor: pointer;
+	background-color: #fff;
+	font-weight: bold
+}
+
+.h-60 {height:60px;}
+.h-80 {height: 80px;}
+.h-90 {height: 90px;}
+.h-110 {height: 110px;}
+.h-120 {height: 120px;}
+.hw-30 {width:  30px;height: 30px;}
+.hw-60 {width:  60px;height: 60px;}
+.hw-80 {width:  80px;height: 80px;}
+.hw-120 {width:  120px;height: 120px;}
+.img-middle-center {
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideleft-sm {
+	max-height: 0;
+    transition: max-height 0.1s ease-out;
+    overflow: hidden;
+    border: 1px solid #eee;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    top: 82.99px;
+}
+.sideleft-fadeIn {
+	max-height: 500px;
+    transition: max-height 0.15s ease-in;
+}
+
+@media (max-width: 575.98px) { 
+}
+
+@media (min-width: 0) and (max-width: 767.98px) { 
+	#app {
+		min-height: calc(100% - 161px);
+	}
+	.sm-none {
+		display: none
+	}
+	.ailin-logo {
+		margin-left: 60px
+	}
+	.right-product-column {
+		margin-top: 30px
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#app {
+		min-height: calc(100% - 161px);
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#app {
+		min-height: calc(100% - 161px);
+	}
+}
+
+@media (min-width: 1200px) {  
+	#app {
+		min-height: calc(100% - 153px);
+	}
+}

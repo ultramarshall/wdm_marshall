@@ -1,0 +1,100 @@
+/*
+Template Name: Flat Lab Dashboard build with Bootstrap v3.3.2
+Template Version: 3.0
+Author: Mosaddek Hossain
+Website: http://thevectorlab.net/
+*/
+
+/* Import fonts 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic); */
+
+.login-page, .register-page {
+    color: #797979;
+    background: #f1f2f7;
+	background: #ddd url(../img/bg.jpg) repeat top left;
+    /* font-family: 'Open Sans', sans-serif; */
+    padding: 0px !important;
+    margin: 0px !important;
+    /* font-size:13px; */
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+	/* font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif; */
+	 color: #222;
+    font-family: Calibri,Arial,sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+.overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.login-box-body, .register-box-body {
+	background: rgba(0, 0, 0, 0) url("../img/bg-white.png") repeat scroll 0 0;
+}
+
+
+.form-control-feedback-left {
+    display: block; 
+    height: 34px;
+    line-height: 34px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 34px;
+    z-index: 2;
+}
+
+.has-feedback-left .form-control {
+    padding-left: 42.5px;
+}
+
+.has-feedback-left{
+     position: relative;
+}
+
+
+.head {
+    left: 40%;
+    position: absolute;
+    top: -15%;
+}
+
+
+.head img {
+    border: 6px solid rgba(221, 218, 215, 0.23);
+    /* border-radius: 50%; */
+}
+img {
+    max-width: 100%;
+}
+
+.login-box-msg, .register-box-msg {
+    margin-top: 40px;
+}
+
+.login-logo, .register-logo {
+    margin-bottom: 45px;
+	 font-size: 20px;
+    font-weight: bold;
+}
+
+.login-box, .register-box {
+    margin: 1% auto;
+}
+
+.embossed {
+	text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070;
+}
+
+.login-page h1 {
+    text-align: center;
+}

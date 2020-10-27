@@ -1,0 +1,59 @@
+/*
+ * Skin: Blue
+ * ----------
+ */
+.skin-blue .left_col {
+	/*background-color: #aaaaaa !important;*/
+	background: transparent;
+	
+}
+
+.skin-blue .nav_title{
+	background: #515356;
+}
+
+body.skin-blue {
+	background-color: transparent;
+}
+
+.skin-blue .sidebar-footer a{
+	background:linear-gradient(#ff6383, #ff6383), #ff6383;
+	color : #ffffff;
+}
+
+.skin-blue .sidebar-footer{
+	background-color: #ff6383 !important;
+}
+
+.skin-blue .nav.side-menu > li > a, .nav.child_menu > li > a{
+	color:#ffffff;
+}
+
+.skin-blue .nav.child_menu > li > a{
+	color:#ffffff;
+}
+
+.nav-md ul.nav.child_menu li:after {
+    border-left: 1px solid #ffffff;
+}
+
+.nav-md ul.nav.child_menu li:before{
+	background-color: #ffffff !important;
+}
+
+.skin-blue .nav.side-menu > li.active > a{
+	background: rgba(0, 0, 0, 0.14);
+	box-shadow: rgba(0,0,0,1) 0 1px 0,inset rgba(255,255,255,.46) 0 2px 0;
+}
+
+.skin-blue .nav.side-menu > li > a:hover{
+	background-color: #ff6383;
+}
+
+.skin-blue .nav.child_menu > li:hover{
+	background: rgba(255, 255, 255, 0.05)	
+}
+
+/*.nav li.current-page {
+    background: rgba(205, 175, 255, 0.5)
+}*/

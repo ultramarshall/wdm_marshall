@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_REFERER} notifa\.com [NC,OR]
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+
+#php_value upload_max_filesize 128M  
+#php_value post_max_size 128M
+
+###test saja ya###
